@@ -1,0 +1,133 @@
+p{
+    /* font-family:'Poppins', sans-serif;   */
+    font-weight: lighter;
+    color: rgba(217, 219, 219, 0.787);
+}
+
+h2{
+    margin-top: 100px;
+    font-weight: 300;
+    font-size: 55px;
+}
+
+.title{
+    text-align: center;
+}
+
+.containerButtonP{
+    text-align: center;
+}
+
+.containerButtonP button{    
+    margin-top: 2dvh;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    background:  rgb(195, 94, 55);
+    font-size: 150%; 
+    text-align: center;
+    color:white;  margin-left: 3%;
+    border-radius: 18px;
+    border: none;
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:normal; 
+}
+
+.containerButton{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.containerButton h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.containerButton button{    
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    background:  #249EBC;
+    font-size: 150%; 
+    text-align: center;
+    color:white;  
+    margin-left: 3%;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:normal; 
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.containerSponsor h3{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    font-weight: 400;
+    color: #21A0BF;
+    font-style: bold;
+
+}
+
+
+.row{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1 {
+    margin: 20px;
+    float:right;
+    width: 500px;
+    /* padding: 20px 10px 10px 120px; */
+    align-content: center;
+    text-align: center;
+}
+  
+.column {
+    margin: 20px;
+    margin-right: 20px;
+    float:right;
+    width: 1200px;
+    /* padding: 10px 60px 10px 10px; */
+    align-content: center;
+}
+  
+.column1 img{
+    height: 200px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.column p{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.containerLogo{
+    padding: 50px 200px;
+}
+
