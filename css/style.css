@@ -1,0 +1,182 @@
+body {
+    margin-top: 5em;
+    padding: 0;
+  }
+
+h1{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight: lighter; 
+    font-size: 400%; 
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:normal; 
+    font-size: 300%; 
+    text-align: left;
+    color: white;  
+}
+
+h3{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:normal; 
+    font-size: 200%; 
+    text-align: justify;
+    color: white;
+    line-height: 120%;
+}
+
+p{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight: lighter; 
+    font-size: 180%; 
+    text-align: justify;
+    color: white;  
+    line-height: 120%;
+}
+
+.azul{
+    color:#249EBC;
+}
+
+a {
+    text-decoration: none;
+    font-weight:lighter; 
+    font-family: 'Coco Gothic', sans-serif;
+    font-size: 80%; 
+    text-align: center;
+    color: white;
+    margin: 2%;
+  }
+
+.navbar{
+    text-align: center;
+}
+
+.image_index{
+    width: 100%;
+    padding: 0%;
+    z-index: -2;
+}
+
+.team_index{
+    width: 100%;
+    /*margin-top: 45%;*/
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    z-index: -1; 
+}
+
+.middle{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: inline-flex;
+}
+
+.middle p{
+    padding-top: 3em;
+    padding-left: 5%;
+}
+
+.image_middle{
+    max-width: 50%;
+    border-radius: 1.5em;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    z-index: 2;
+    position: static;
+    padding-top: 5%;
+   
+}
+
+.carousels h2{
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 0em;
+  font-weight: lighter;
+}
+
+.carousels{
+  margin-bottom: 5em;
+}
+
+footer {  
+    color: #fff;
+    text-align: justify;
+}
+ 
+.footer_1 {
+    margin-top: 0%;
+    bottom: 0;
+    background-color: black;
+}          
+ 
+.blue-bar {
+    background-color: #177086;
+    height: 5%;
+    width: 100%;
+    margin-top: 0%;
+    
+}
+
+.future{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:bold; 
+    font-size: 180%; 
+    text-align: center;
+    color: white;
+
+    line-height: 150%;
+    margin-top: 0%; 
+}
+
+.img_team_index{
+  margin-top: 10%;
+}
+
+h2.team{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:lighter; 
+  font-size: 200%; 
+  color: white; 
+  margin: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  padding: 0; 
+}
+
+.splide{
+  width: 100%;
+  text-align: right;
+}
+
+.img_box{
+  max-width: 50%;
+  overflow: hidden;
+}
+
+.text_box{
+  width: 50%;
+  display: inline-block;
+}
+
+.text_box p{
+  width: 80%;
+  padding-left: 5rem;
+  padding-top: 4rem;
+}
+
+.img_box img{
+  transform: translate(0%,-25%);
+}
+
+.header2{
+  padding-bottom: 4rem;
+}

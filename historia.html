@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra historia | Quantum Robotics</title>
+    <link rel="shortcut icon" href="img/QLogo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/coco-gothic" rel="stylesheet">
+    <!-- splide css cdn -->
+    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+</head>
+<body  style="background-color: #000000;">
+   
+    <h1>NUESTRA <span class="azul">HISTORIA</span></h1>
+
+    <div>
+        <img class="image_index" src="imagenes/hist_1.webp">
+    </div>
+   
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="middle">
+                <img class="image_middle" src="imagenes/comp_4.webp">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                    qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+    <div class="carousels">
+        <h2 class="header2">NUESTRAS <span class="azul">COMPETENCIAS</span></h2>
+        <div class="splide" id="first-slider">
+            <div class="splide__track">
+                <div class="splide__list">
+                    <div class="splide__slide">
+                        <div class="img_box">
+                            <img src="imagenes/comp_1.webp">
+                        </div>
+                        <div class="text_box">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="img_box">
+                            <img src="imagenes/comp_2.webp">
+                        </div>
+                        <div class="text_box">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="img_box">
+                            <img src="imagenes/comp_3.webp">
+                        </div>
+                        <div class="text_box">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-slider-progress">
+                <div class="my-slider-progress-bar"></div>
+            </div>
+        </div>
+        
+        <h2 class="header2">NUESTROS <span class="azul">ROVERS</span></h2>
+        <div class="splide" id="second-slider">
+            <div class="splide__track">
+                <div class="splide__list">
+                    <div class="splide__slide">
+                        <div class="img_box">
+                            <img src="imagenes/rover_1.webp">
+                        </div>
+                        <div class="text_box">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="img_box">
+                            <img src="imagenes/rover_2.webp">
+                        </div>
+                        <div class="text_box">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+                        <div class="img_box">
+                            <img src="imagenes/rover_3.webp">
+                        </div>
+                        <div class="text_box">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+    <script>
+        new Splide('#first-slider', {
+            direction:'ttb',
+            height:'30rem',
+            type   : 'loop',
+        }).mount();
+        new Splide('#second-slider', {
+            direction:'ttb',
+            height:'30rem',
+            type   : 'loop',
+        }).mount();    
+    </script>
+
+<footer class="footer_1">
+    <div class="blue-bar">
+        <p class="future">#EXPLORETHEFUTURE</p>
+    </div>    
+</footer>
+
+</body>
+</html>
