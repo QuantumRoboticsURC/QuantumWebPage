@@ -217,8 +217,8 @@ button:hover{
 
 @media only screen and (max-width: 450px){
     body{
-        width: 100%;
-        margin-left: 10px;
+        width: 110%;
+        margin-left: 20px;
     } 
     .title{
         font-size: 35px;
@@ -245,8 +245,9 @@ button:hover{
 
 @media only screen and (max-width: 400px){
     body{
-        width: 100%;
-        margin-left: 5px;
+        width: 130%;
+        margin-left: 10px;
+        align-content: center;
     } 
     .title{
         font-size: 30px;
@@ -274,7 +275,8 @@ button:hover{
 @media only screen and (max-width: 300px){
     body{
         width: 95%;
-        margin-left: 5px;
+        margin-left: 40px;
+        align-content: center;
     } 
     .title{
         font-size: 30px;
@@ -292,9 +294,17 @@ button:hover{
         font-size: 20px;
     }
     .column1 img{
-        height: 150px;
+        height: 100px;
     }
     .containerButton h3{
         font-size: 20px;
     }
+}
+
+@media only screen and (max-width: 280px){
+    body{
+        width: 160%;
+        margin-left: 10px;
+        align-content: center;
+    } 
 }
