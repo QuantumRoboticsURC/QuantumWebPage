@@ -313,9 +313,7 @@ footer {
       margin-bottom: 10px;
     }
   }
-  
 
-  
   .lightbox {
     display: none;
     width: 100%;
@@ -358,4 +356,14 @@ video.ss{
   width: 75%;
   margin-left: 15%;
   
+}
+
+
+@media only screen and (max-width: 450px){
+  body h1{
+    font-size: 32px;
+  }
+  .navbar b{
+    font-size: 12px;
+  }
 }
