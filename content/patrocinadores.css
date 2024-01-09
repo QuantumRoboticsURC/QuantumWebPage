@@ -21,11 +21,11 @@ h2{
     font-weight:lighter;
 }
 
-.num7{
+.containerSponsorD .num7{
+    font-size: 45px;
     font-family:sans-serif;
     font-weight:lighter;
     color: #249EBC;
-
 }
 
 .title{
@@ -93,9 +93,9 @@ button:hover{
 }
 
 .containerSponsor h3{
-    text-align: center;
-    justify-content: center;
-    align-content: center;
+    text-align: left;
+    justify-content: left;
+    /* align-content:  */
     font-size: 40px;
     font-weight: 400;
     color: #21A0BF;
@@ -103,11 +103,22 @@ button:hover{
 
 }
 
+.containerSponsorD h3{
+    text-align: right;
+    justify-content: right;
+    /* align-content:  */
+    font-size: 40px;
+    font-weight: 400;
+    color: #21A0BF;
+    font-style: bold;
+
+}
 
 .row{
     margin-right: 40px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-left: 60px;
     margin-right: 60px;
 
@@ -148,6 +159,9 @@ button:hover{
     border-radius: 20px;
 
 }
+.column1 .logoTec{
+    height: 100px;
+}
 .column span{
     text-align: center;
     font-size: 25px;
@@ -165,6 +179,16 @@ button:hover{
 
 /* Web Responsiva */
 @media screen and (max-width: 1220px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
     .container-content{
         max-width: 1000px;
         padding: 0 20px;
@@ -183,9 +207,22 @@ button:hover{
     .column:first-child {
         margin-right: 20px;
     }
+    .column1{
+        order: 1;
+    }
 }
 
 @media only screen and (max-width: 800px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
     .title{
         font-size: 38px;
     }
@@ -211,11 +248,24 @@ button:hover{
     .column p{
         font-size: 26px;
     }
+    .column1{
+        order: 1;
+    }
 }
 
 /* Celulares */
 
 @media only screen and (max-width: 450px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
     body{
         width: 110%;
         margin-left: 20px;
@@ -239,11 +289,22 @@ button:hover{
     .column1 img{
         height:180px ;
         align-content: center;
+        order: 1;
     }
 }
 
 
 @media only screen and (max-width: 400px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
     body{
         width: 130%;
         margin-left: 10px;
@@ -261,6 +322,9 @@ button:hover{
         margin-left: 20px;
         margin-right: 20px;
     }
+    .column1{
+        order: 1;
+    }
     .column p{
         font-size: 20px;
     }
@@ -273,6 +337,16 @@ button:hover{
 }
 
 @media only screen and (max-width: 300px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
     body{
         width: 95%;
         margin-left: 40px;
@@ -290,6 +364,9 @@ button:hover{
         margin-left: 20px;
         margin-right: 20px;
     }
+    .column1{
+        order: 1;
+    }
     .column p{
         font-size: 20px;
     }
@@ -302,9 +379,25 @@ button:hover{
 }
 
 @media only screen and (max-width: 280px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
     body{
         width: 160%;
         margin-left: 10px;
         align-content: center;
-    } 
+    }
+    .column{
+        order: 0;
+    }
+    .column1{
+        order: 1;
+    }
 }
