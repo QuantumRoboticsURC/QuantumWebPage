@@ -1,0 +1,403 @@
+p{
+    /* font-family:'Poppins', sans-serif;   */
+    font-weight: lighter;
+    color: rgba(217, 219, 219, 0.787);
+}
+
+span{
+    font-weight: lighter;
+    font-family: 'Coco Gothic', sans-serif;
+    color: rgba(217, 219, 219, 0.787);
+}
+
+h2{
+    margin-top: 100px;
+    font-weight: 300;
+    font-size: 55px;
+}
+
+.num{
+    font-family:sans-serif;
+    font-weight:lighter;
+}
+
+.containerSponsorD .num7{
+    font-size: 45px;
+    font-family:sans-serif;
+    font-weight:lighter;
+    color: #249EBC;
+}
+
+.title{
+    text-align: center;
+}
+
+.containerButtonP{
+    text-align: center;
+}
+
+.containerButtonP button{    
+    margin-top: 2dvh;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    background:  rgb(195, 94, 55);
+    font-size: 150%; 
+    text-align: center;
+    color:white;  margin-left: 3%;
+    border-radius: 18px;
+    border: none;
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:normal; 
+}
+
+.containerButton{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.containerButton h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.containerButton button{    
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    background:  #249EBC;
+    font-size: 150%; 
+    text-align: center;
+    color:white;  
+    margin-left: 3%;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:normal; 
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.containerTarjeta{
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(53, 54, 55, 0.462);
+    border-radius: 30px;
+    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+
+}
+
+.containerSponsor h3{
+    text-align: left;
+    justify-content: left;
+    /* align-content:  */
+    font-size: 40px;
+    font-weight: 400;
+    color: #21A0BF;
+    font-style: bold;
+
+}
+
+.containerSponsorD h3{
+    text-align: right;
+    justify-content: right;
+    /* align-content:  */
+    font-size: 40px;
+    font-weight: 400;
+    color: #21A0BF;
+    font-style: bold;
+
+}
+
+.row{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1 {
+    margin: 20px;
+    float:right;
+    width: 500px;
+    /* padding: 20px 10px 10px 120px; */
+    align-content: center;
+    text-align: center;
+}
+  
+.column {
+    margin: 20px;
+    margin-right: 20px;
+    float:right;
+    width: 1200px;
+    /* padding: 10px 60px 10px 10px; */
+    align-content: center;
+}
+  
+.column1 img{
+    height: 200px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.column1 .logoTec{
+    height: 100px;
+}
+.column span{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.containerLogo{
+    padding: 50px 200px;
+}
+
+.img_index{
+    border-radius: 20px;   
+}
+
+/* Web Responsiva */
+@media screen and (max-width: 1220px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .container-content{
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .column {
+        flex: 1;
+        width: 90%;
+    }
+    
+    .column:first-child {
+        margin-right: 20px;
+    }
+    .column1{
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .title{
+        font-size: 38px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .containerTarjeta{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+    .containerSponsor h3{
+        font-size: 35px;
+    }
+    .row{
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    .column .column1{
+        margin: 5px;
+    }
+    .column p{
+        font-size: 26px;
+    }
+    .column1{
+        order: 1;
+    }
+}
+
+/* Celulares */
+
+@media only screen and (max-width: 450px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    body{
+        width: 110%;
+        margin-left: 20px;
+    } 
+    .title{
+        font-size: 35px;
+    }
+    .containerButtonP{
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .containerTarjeta{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .column img{
+        height:180px ;
+        align-content: center;
+    }
+    .column1 img{
+        height:180px ;
+        align-content: center;
+        order: 1;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    body{
+        width: 130%;
+        margin-left: 10px;
+        align-content: center;
+    } 
+    .title{
+        font-size: 30px;
+    }
+    .containerButtonP{
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .containerTarjeta{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .column1{
+        order: 1;
+    }
+    .column p{
+        font-size: 20px;
+    }
+    .column1 img{
+        height: 150px;
+    }
+    .containerButton h3{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    body{
+        width: 95%;
+        margin-left: 40px;
+        align-content: center;
+    } 
+    .title{
+        font-size: 30px;
+    }
+    .containerButtonP{
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .containerTarjeta{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .column1{
+        order: 1;
+    }
+    .column p{
+        font-size: 20px;
+    }
+    .column1 img{
+        height: 100px;
+    }
+    .containerButton h3{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .containerSponsor h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    .containerSponsorD h3{
+        text-align: center;
+        justify-content: center;
+        align-content:center;
+    }
+    body{
+        width: 160%;
+        margin-left: 10px;
+        align-content: center;
+    }
+    .column{
+        order: 0;
+    }
+    .column1{
+        order: 1;
+    }
+}

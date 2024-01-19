@@ -1,0 +1,2171 @@
+/*Escritorio grande*/
+@media (min-width: 1400px)  {
+nav ul li img{
+  display: block;
+  margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight: lighter; 
+    font-size: 400%; 
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:normal; 
+    font-size: 300%; 
+    text-align: left;
+    color: white;  
+    margin-left: 3%;
+    z-index: 17;
+}
+
+h3{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:normal; 
+    font-size: 200%; 
+    text-align: justify;
+    color: white;
+    margin-left: 3%;
+    line-height: 120%;
+}
+
+p{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight: lighter; 
+    font-size: 180%; 
+    text-align: justify;
+    color: white;  
+    margin-left: 3%; 
+    line-height: 120%;
+}
+
+a {
+  text-decoration: none;
+  font-weight:lighter; 
+  font-family: 'Coco Gothic', sans-serif;
+  font-size: 80%; 
+  text-align: center;
+  color: white;
+  margin: 2%;
+}
+
+
+.image_index{
+
+  width: 100%;
+  margin-top: 3%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  padding: 0%;
+  z-index: -2;
+  position: absolute;
+}
+
+img.team_index{
+padding: 0px;
+}
+.team_index{
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  padding: 0%;
+  z-index: -1; 
+  
+}
+
+
+.about_us{
+  margin-top: 4%;
+  margin-bottom: 20%;
+  width: 70%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+ 
+}
+
+.content{
+  width: 100%;
+  margin: 0 auto;
+  z-index: 2;
+  height: 580px;
+ 
+}
+
+.content_re1{
+
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 5%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  margin-top: 15%;
+  margin-left: 4%;
+  float:left; 
+}
+
+.content_re2{
+
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  margin-top: 150%;
+  margin-left: 4%;
+  float:left;
+ 
+}
+video {
+  margin-top: 0%;
+  width: 100%;
+  z-index: -1;
+  
+}
+
+.vision{
+  margin-top: 10%;
+  line-height: 120%;
+}
+
+footer {
+  
+  color: #fff;
+  text-align: justify;
+}
+
+.footer-nav{
+  padding-left: 5%;
+
+}
+.footer-logo.redes{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer-logo img.logo {
+  width: 10%;
+  height: auto;
+  padding-left: 5%;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}  
+
+.footer_1 {
+  margin-top: 0%;
+  bottom: 0;
+  background-color: black;
+}          
+
+.footer_2 {
+  margin-top: 160%;
+  bottom: 0;
+  background-color: black;
+}  
+.sponsors_footer_img{
+  width: 20%;
+  float: right;
+  margin-right: 5%;
+} 
+
+.blue-bar {
+  background-color: #177086;
+  height: 5%;
+  width: 100%;
+  margin-top: 0%;
+  padding: 0%;
+  
+}
+
+.future{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:bold; 
+  font-size: 180%; 
+  text-align: center;
+  color: white;
+  line-height: 150%;
+  margin-top: 0%; 
+}
+.redes{
+ margin-left: 20%;     
+}
+.redes img{
+  width: 2%;
+}
+.copy{
+
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:lighter; 
+  font-size: 100%; 
+  text-align: center;
+  color: white;
+  padding: 1%;
+  margin: 1%;
+
+}
+
+.container_galeria {
+  max-width: 100%;
+  margin: 0% auto;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.lightbox-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lightbox-gallery div > img {
+  
+  height: 25% ;
+  display: block;
+}
+
+.lightbox-gallery div {
+  margin: 5%px;
+  flex-basis: 20%px;
+}
+
+@media only screen and (max-width: 480px) {
+  .lightbox-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lightbox > div {
+    margin-bottom: 10px;
+  }
+}
+
+.lightbox {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.lightbox img {
+  display: block;
+  margin: auto;
+}
+
+.lightbox .caption {
+  margin: 15px auto;
+  width: 50%;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #202020;
+}
+
+
+.img_team_index{
+  padding: 0px;
+  margin-bottom: 0px;
+  display: block;
+}
+.img_team_index2{
+margin-top: 180%;
+}
+.video_ss{
+margin-top: 60%;
+
+}
+video.ss{
+width: 75%;
+margin-left: 15%;
+
+}
+.contenedor {
+max-width: 80%;
+margin: 0 auto;
+padding: 5%;
+align-content: center;
+
+}
+.area {
+margin-top: 5%;
+margin-bottom: 10%;
+align-content: center;
+align-items: center;
+text-align: center;
+}
+
+.area1 {
+margin-bottom: 5%;
+align-content: center;
+align-items: center;
+text-align: center;
+max-width: 47%;
+float: left;
+height: 110vh;
+
+}
+.area img{
+border-radius: 3%;
+}
+
+.area1 img{
+border-radius: 3%;
+}
+.persona {
+display: inline-block;
+margin-right: 1%;
+vertical-align: top;
+text-align: center;
+}
+.persona img {
+max-width: 200px;
+max-height: 300px;
+}
+
+.persona p {
+margin-top: 10px;
+}
+
+p.nombres{
+font-family: 'Coco Gothic', sans-serif;
+font-weight:300; 
+font-size: 100%; 
+text-align: center;
+color: white;
+}
+
+p.nombresd{
+font-family: 'Coco Gothic', sans-serif;
+font-weight:300; 
+font-size: 100%; 
+text-align: center;
+color: white;
+margin-bottom: 0%;
+}
+
+p.rol{
+font-family: 'Coco Gothic', sans-serif;
+font-weight:300; 
+font-size: 70%; 
+text-align: center;
+color: white;
+margin-top: 0%;
+}
+
+h2.team{
+font-family: 'Coco Gothic', sans-serif;
+font-weight:lighter; 
+font-size: 200%; 
+color: white; 
+margin: 0;
+margin-bottom: 3%;
+margin-top: 3%;
+padding: 0; 
+}
+
+.index_card{
+  width: 43%;
+  height: 440px;
+  border-radius: 1.5rem;
+  background-color: rgba(27, 26, 26, 0.7);
+  float: left;
+  align-self: center;
+  margin: 2%;
+
+  padding-right: 2%;
+  padding-left: 1%;
+  z-index: -5;
+}
+
+.call2action{
+  width: 38%;
+  height: 460px;
+  float: left;
+  align-self: center;
+  margin: 2%;
+  margin-top: 15%;
+  padding-right: 2%;
+  padding-left: 1%;
+  z-index: -5;
+}
+
+.call2action.top{
+  width: 38%;
+  height: 460px;
+  float: left;
+  align-self: center;
+  margin: 2%;
+  margin-left: 10%;
+  margin-top: 15%;
+  padding-right: 2%;
+  padding-left: 1%;
+  z-index: -5;
+}
+
+.top10{
+  font-weight: bolder;
+  font-size: 80px;
+  text-align: right;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+.top10.urc{
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 0%;
+}
+
+p.mv{
+  color: white;
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 40px;
+  z-index: 3;
+}
+
+.img_index{
+  position: relative;
+  display: block;
+  height: 1200px;
+}
+
+.numero{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.index_group{
+  height: 180vh;
+  z-index: -3;
+}
+
+.URC{
+  width: 100%;
+  height: 80vh;
+  z-index: 7;
+  float: left;
+}
+
+.URC_text{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight: 300;
+  float: left;
+  width: 60%;
+}
+.URC_logo{
+ margin-left: 10%;
+ margin-top: 2.5%;
+}
+}
+/*Fin Escritorio Grande*/
+
+
+/*Escritorio mediano*/
+
+@media (min-width: 1170px) and (max-width: 1399px)  {
+  nav ul li img{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+    }
+  
+  h1{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight: lighter; 
+      font-size: 400%; 
+      text-align: center;
+      color: white;
+  }
+  
+  h2{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight:normal; 
+      font-size: 300%; 
+      text-align: left;
+      color: white;  
+      margin-left: 3%;
+      z-index: 17;
+  }
+  
+  h3{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight:normal; 
+      font-size: 200%; 
+      text-align: justify;
+      color: white;
+      margin-left: 3%;
+      line-height: 120%;
+  }
+  
+  p{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight: lighter; 
+      font-size: 180%; 
+      text-align: justify;
+      color: white;  
+      margin-left: 3%; 
+      line-height: 120%;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight:lighter; 
+    font-family: 'Coco Gothic', sans-serif;
+    font-size: 80%; 
+    text-align: center;
+    color: white;
+    margin: 2%;
+  }
+  
+  
+  .image_index{
+  
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    
+    position: absolute;
+    display: block;
+  }
+  
+  img.team_index{
+  padding: 0px;
+  }
+  .team_index{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    z-index: -1; 
+    
+  }
+  
+  
+  .about_us{
+    margin-top: 4%;
+    margin-bottom: 20%;
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+   
+  }
+  
+  .content{
+    width: 100%;
+    margin: 0 auto;
+    z-index: 2;
+    height: 580px;
+   
+  }
+  
+  .content_re1{
+  
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-top: 15%;
+    margin-left: 4%;
+    float:left; 
+  }
+  
+  .content_re2{
+  
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-top: 150%;
+    margin-left: 4%;
+    float:left;
+   
+  }
+  video {
+    margin-top: 0%;
+    width: 100%;
+    z-index: -1;
+    
+  }
+  
+  .vision{
+    margin-top: 10%;
+    line-height: 120%;
+  }
+  
+  footer {
+    
+    color: #fff;
+    text-align: justify;
+  }
+  
+  .footer-nav{
+    padding-left: 5%;
+  
+  }
+  .footer-logo.redes{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .footer-logo img.logo {
+    width: 10%;
+    height: auto;
+    padding-left: 5%;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }  
+  
+  .footer_1 {
+    margin-top: 0%;
+    bottom: 0;
+    background-color: black;
+  }          
+  
+  .footer_2 {
+    margin-top: 160%;
+    bottom: 0;
+    background-color: black;
+  }  
+  .sponsors_footer_img{
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+  } 
+  
+  .blue-bar {
+    background-color: #177086;
+    height: 5%;
+    width: 100%;
+    margin-top: 0%;
+    padding: 0%;
+    
+  }
+  
+  .future{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:bold; 
+    font-size: 180%; 
+    text-align: center;
+    color: white;
+  
+    line-height: 150%;
+    margin-top: 0%; 
+  }
+  .redes{
+   margin-left: 20%;     
+  }
+  .redes img{
+    width: 2%;
+  }
+  .copy{
+  
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:lighter; 
+    font-size: 100%; 
+    text-align: center;
+    color: white;
+    padding: 1%;
+    margin: 1%;
+  
+  }
+  
+  .container_galeria {
+    max-width: 100%;
+    margin: 0% auto;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  }
+  
+  .text-center {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .lightbox-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .lightbox-gallery div > img {
+    
+    height: 25% ;
+    display: block;
+  }
+  
+  .lightbox-gallery div {
+    margin: 5%px;
+    flex-basis: 20%px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .lightbox-gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .lightbox > div {
+      margin-bottom: 10px;
+    }
+  }
+  
+  .lightbox {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+  
+  .lightbox img {
+    display: block;
+    margin: auto;
+  }
+  
+  .lightbox .caption {
+    margin: 15px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #202020;
+  }
+  
+  .img_team_index{
+    padding: 0px;
+    margin-bottom: 0px;
+    display: block;
+  }
+  .img_team_index2{
+  margin-top: 180%;
+  }
+  .video_ss{
+  margin-top: 60%;
+  
+  }
+  video.ss{
+  width: 75%;
+  margin-left: 15%;
+  
+  }
+  .contenedor {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+  align-content: center;
+  
+  }
+  .area {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .area1 {
+  margin-bottom: 5%;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 50%;
+  float: left;
+  height: 80vh;
+  
+  }
+  .area img{
+  border-radius: 3%;
+  }
+  
+  .area1 img{
+  border-radius: 3%;
+  }
+  .persona {
+  display: inline-block;
+  margin-right: 1%;
+  vertical-align: top;
+  text-align: center;
+  }
+  .persona img {
+  max-width: 150px;
+  max-height: 2500px;
+  }
+  
+  .persona p {
+  margin-top: 10px;
+  }
+  
+  p.nombres{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:300; 
+  font-size: 100%; 
+  text-align: center;
+  color: white;
+  }
+  
+  p.nombresd{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:300; 
+  font-size: 100%; 
+  text-align: center;
+  color: white;
+  margin-bottom: 0%;
+  }
+  
+  p.rol{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:300; 
+  font-size: 70%; 
+  text-align: center;
+  color: white;
+  margin-top: 0%;
+  }
+  
+  h2.team{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:lighter; 
+  font-size: 200%; 
+  color: white; 
+  margin: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  padding: 0; 
+  }
+  
+  .index_card{
+    width: 43%;
+    height: 440px;
+    border-radius: 1.5rem;
+    background-color: rgba(27, 26, 26, 0.7);
+    float: left;
+    align-self: center;
+    margin: 2%;
+    padding-right: 2%;
+    padding-left: 1%;
+    z-index: -5;
+  }
+  
+  .call2action{
+    width: 38%;
+    height: 460px;
+    float: left;
+    align-self: center;
+    margin: 2%;
+    margin-top: 15%;
+    padding-right: 2%;
+    padding-left: 1%;
+    
+    position: relative;
+  }
+  
+  .call2action.top{
+    width: 38%;
+    height: 460px;
+    float: left;
+    align-self: center;
+    margin: 2%;
+    margin-left: 10%;
+    margin-top: 15%;
+    padding-right: 2%;
+    padding-left: 1%;
+   
+    position: relative;
+  }
+  
+  .top10{
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: right;
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+  
+  .top10.urc{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 0%;
+  }
+  
+  p.mv{
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 40px;
+    z-index: 3;
+  }
+  
+  .img_index{
+    position: relative;
+    display: block;
+    height: 950px;
+  }
+  
+  .numero{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .index_group{
+    height: 200vh;
+    z-index: -3;
+  }
+  
+  .URC{
+    width: 100%;
+    height: 80vh;
+    z-index: 7;
+    float: left;
+  }
+  
+  .URC_text{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight: 300;
+    float: left;
+    width: 60%;
+  }
+  .URC_logo{
+   margin-left: 10%;
+   margin-top: 2.5%;
+  }
+
+  .navbar_frame{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  }
+  /*Fin Escritorio Mediano*/
+
+
+  /*Escritorio Pequeño*/
+
+  @media (min-width: 575px) and (max-width: 1169px){
+    nav ul li img{
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+      }
+    
+    h1{
+        font-family: 'Coco Gothic', sans-serif;
+        font-weight: lighter; 
+        font-size: 400%; 
+        text-align: center;
+        color: white;
+    }
+    
+    h2{
+        font-family: 'Coco Gothic', sans-serif;
+        font-weight:normal; 
+        font-size: 300%; 
+        text-align: left;
+        color: white;  
+        margin-left: 3%;
+        z-index: 17;
+    }
+    
+    h3{
+        font-family: 'Coco Gothic', sans-serif;
+        font-weight:normal; 
+        font-size: 200%; 
+        text-align: justify;
+        color: white;
+        margin-left: 3%;
+        line-height: 120%;
+    }
+    
+    p{
+        font-family: 'Coco Gothic', sans-serif;
+        font-weight: lighter; 
+        font-size: 100%; 
+        text-align: justify;
+        color: white;  
+        margin-left: 3%; 
+        line-height: 120%;
+    }
+    
+    a {
+      text-decoration: none;
+      font-weight:lighter; 
+      font-family: 'Coco Gothic', sans-serif;
+      font-size: 80%; 
+      text-align: center;
+      color: white;
+      margin: 2%;
+    }
+    
+    
+    .image_index{
+    
+      width: 100%;
+      margin-top: 3%;
+      margin-left: 0%;
+      margin-bottom: 0%;
+      margin-right: 0%;
+      padding: 0%;
+
+      position: absolute;
+      display: block;
+    }
+    
+    img.team_index{
+    padding: 0px;
+    }
+    .team_index{
+      width: 100%;
+      margin-top: 5%;
+      margin-left: 0%;
+      margin-bottom: 0%;
+      margin-right: 0%;
+      padding: 0%;
+      z-index: -1; 
+      
+    }
+    
+    
+    .about_us{
+      margin-top: 4%;
+      margin-bottom: 20%;
+      width: 70%;
+      height: 50%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+     
+    }
+    
+    .content{
+      width: 100%;
+      margin: 0 auto;
+      z-index: 2;
+      height: 700px;
+     
+    }
+    
+    .content_re1{
+    
+      width: 70%;
+      margin: 0 auto;
+      padding-top: 5%;
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      margin-top: 15%;
+      margin-left: 4%;
+      float:left; 
+    }
+    
+    .content_re2{
+    
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 5%;
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      margin-top: 150%;
+      margin-left: 4%;
+      float:left;
+     
+    }
+    video {
+      margin-top: 0%;
+      width: 100%;
+      z-index: -1;
+      
+    }
+    
+    .vision{
+      margin-top: 10%;
+      line-height: 120%;
+    }
+    
+    footer {
+      
+      color: #fff;
+      text-align: justify;
+    }
+    
+    .footer-nav{
+      padding-left: 5%;
+    
+    }
+    .footer-logo.redes{
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .footer-logo img.logo {
+      width: 10%;
+      height: auto;
+      padding-left: 5%;
+    }
+    
+    .footer-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+    
+    .footer-nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    .footer-nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    .footer-nav a:hover {
+      text-decoration: underline;
+    }  
+    
+    .footer_1 {
+      margin-top: 0%;
+      bottom: 0;
+      background-color: black;
+    }          
+    
+    .footer_2 {
+      margin-top: 160%;
+      bottom: 0;
+      background-color: black;
+    }  
+    .sponsors_footer_img{
+      width: 20%;
+      float: right;
+      margin-right: 5%;
+    } 
+    
+    .blue-bar {
+      background-color: #177086;
+      height: 5%;
+      width: 100%;
+      margin-top: 0%;
+      padding: 0%;
+      
+    }
+    
+    .future{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight:bold; 
+      font-size: 180%; 
+      text-align: center;
+      color: white;
+    
+      line-height: 150%;
+      margin-top: 0%; 
+    }
+    .redes{
+     margin-left: 20%;     
+    }
+    .redes img{
+      width: 2%;
+    }
+    .copy{
+    
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight:lighter; 
+      font-size: 100%; 
+      text-align: center;
+      color: white;
+      padding: 1%;
+      margin: 1%;
+    
+    }
+    
+    .container_galeria {
+      max-width: 100%;
+      margin: 0% auto;
+      padding: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-sizing: border-box;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+    }
+    
+    .text-center {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    
+    .lightbox-gallery {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .lightbox-gallery div > img {
+      
+      height: 25% ;
+      display: block;
+    }
+    
+    .lightbox-gallery div {
+      margin: 5%px;
+      flex-basis: 20%px;
+    }
+    
+    @media only screen and (max-width: 480px) {
+      .lightbox-gallery {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .lightbox > div {
+        margin-bottom: 10px;
+      }
+    }
+    
+    .lightbox {
+      display: none;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 20;
+      padding-top: 30px;
+      box-sizing: border-box;
+    }
+    
+    .lightbox img {
+      display: block;
+      margin: auto;
+    }
+    
+    .lightbox .caption {
+      margin: 15px auto;
+      width: 50%;
+      text-align: center;
+      font-size: 1em;
+      line-height: 1.5;
+      font-weight: 700;
+      color: #202020;
+    }
+    
+    .img_team_index{
+      padding: 0px;
+      margin-bottom: 0px;
+      display: block;
+    }
+    .img_team_index2{
+    margin-top: 180%;
+    }
+    .video_ss{
+    margin-top: 60%;
+    
+    }
+    video.ss{
+    width: 75%;
+    margin-left: 15%;
+    
+    }
+    .contenedor {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+    align-content: center;
+    
+    }
+    .area {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .area1 {
+    margin-bottom: 5%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    float: left;
+    height: 55vh;
+    
+    }
+    .area img{
+    border-radius: 3%;
+    }
+    
+    .area1 img{
+    border-radius: 3%;
+    }
+    .persona {
+    display: inline-block;
+    margin-right: 1%;
+    vertical-align: top;
+    text-align: center;
+    }
+    .persona img {
+    max-width: 150px;
+    max-height: 250px;
+    }
+    
+
+    .persona p {
+    margin-top: 10px;
+    }
+    
+    p.nombres{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:300; 
+    font-size: 100%; 
+    text-align: center;
+    color: white;
+    }
+    
+    p.nombresd{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:300; 
+    font-size: 100%; 
+    text-align: center;
+    color: white;
+    margin-bottom: 0%;
+    }
+    
+    p.rol{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:300; 
+    font-size: 70%; 
+    text-align: center;
+    color: white;
+    margin-top: 0%;
+    }
+    
+    h2.team{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:lighter; 
+    font-size: 200%; 
+    color: white; 
+    margin: 0;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 0; 
+    }
+    
+    .index_card{
+      width: 90%;
+      height: 290px;
+      border-radius: 1.5rem;
+      background-color: rgba(27, 26, 26, 0.7);
+      align-self: center;
+      margin: 2%;
+      padding-right: 2%;
+      padding-left: 1%;
+      padding-top: 0.1%;
+      z-index: -5;
+    }
+    
+    .call2action{
+      width: 38%;
+      height: 460px;
+      float: left;
+      align-self: center;
+      margin: 2%;
+      margin-top: 15%;
+      padding-right: 2%;
+      padding-left: 1%;
+     
+      font-size: 18px;
+      position: relative;
+    }
+    
+    .call2action.top{
+      width: 38%;
+      height: 460px;
+      float: left;
+      align-self: center;
+      margin: 2%;
+      margin-left: 10%;
+      margin-top: 15%;
+      padding-right: 2%;
+      padding-left: 1%;
+     
+      position: relative;
+    }
+    
+    .top10{
+      font-weight: bolder;
+      font-size: 50px;
+      text-align: right;
+      margin-top: 0%;
+      margin-bottom: 2%;
+    }
+    
+    .top10.urc{
+      font-weight: bolder;
+      font-size: 16px;
+      text-align: right;
+      margin-top: 0%;
+    }
+    
+    p.mv{
+      color: white;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 30px;
+      z-index: 3;
+    }
+    
+    .img_index{
+      position: relative;
+      display: block;
+      height: 600px;
+    }
+    
+    .numero{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .index_group{
+      height: 110vh;
+      z-index: -3;
+    }
+    
+    .URC{
+      width: 100%;
+      height: 90vh;
+      z-index: 7;
+      float: left;
+    }
+    
+    .URC_text{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      float: left;
+      width: 60%;
+    }
+    .URC_logo{
+     margin-left: 20px;
+     margin-top: 30px;
+     width: 200px;
+     float: left;
+    }
+  
+    .navbar_frame{
+      margin: 0px;
+      padding: 0px;
+    }
+
+  .azul.futuras{
+    font-size: 20px;
+  }
+
+  .azul.robotics{
+    color:#249EBC;
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight: lighter; 
+    font-size: 100%; 
+    text-align: center;
+  }
+  
+}
+
+
+/*Fin Escritorio Pequeño*/
+
+/* Smartphones*/
+ @media (min-width: 350px) and (max-width: 574px){
+  nav ul li img{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+    }
+  
+  h1{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight: lighter; 
+      font-size: 270%; 
+      text-align: center;
+      color: white;
+  }
+  
+  h2{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight:normal; 
+      font-size: 90%; 
+      text-align: left;
+      color: white;  
+      margin-left: 3%;
+      margin-top: 3%;
+      z-index: 17;
+  }
+  
+  h3{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight:normal; 
+      font-size: 100%; 
+      text-align: justify;
+      color: white;
+      margin-left: 3%;
+      line-height: 120%;
+  }
+  
+  p{
+      font-family: 'Coco Gothic', sans-serif;
+      font-weight: lighter; 
+      font-size: 100%; 
+      text-align: justify;
+      color: white;  
+      margin-left: 3%; 
+      line-height: 120%;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight:lighter; 
+    font-family: 'Coco Gothic', sans-serif;
+    font-size: 80%; 
+    text-align: center;
+    color: white;
+    margin: 2%;
+  }
+  
+ 
+  .image_index{
+  
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    
+    position: absolute;
+    display: block;
+
+}
+ 
+
+  img.team_index{
+  padding: 0px;
+  }
+  .team_index{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    z-index: -1;
+  }
+  
+  
+  .about_us{
+    margin-top: 4%;
+    margin-bottom: 20%;
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+   
+  }
+  
+  .content{
+    width: 90%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    z-index: 2;
+    height: 450px;
+  }
+  
+  .content_re1{
+  
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-top: 15%;
+    margin-left: 4%;
+    float:left; 
+  }
+  
+  .content_re2{
+  
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-top: 150%;
+    margin-left: 4%;
+    float:left;
+   
+  }
+  video {
+    margin-top: 0%;
+    width: 100%;
+    z-index: -1;
+    
+  }
+  
+  .vision{
+    margin-top: 10%;
+    line-height: 120%;
+  }
+  
+  footer {
+    
+    color: #fff;
+    text-align: justify;
+  }
+  
+  .footer-nav{
+    padding-left: 5%;
+  
+  }
+  .footer-logo.redes{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .footer-logo img.logo {
+    width: 20%;
+    height: auto;
+    padding-left: 5%;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }  
+  
+  .footer_1 {
+    margin-top: 0%;
+    bottom: 0;
+    background-color: black;
+  }          
+  
+  .footer_2 {
+    margin-top: 160%;
+    bottom: 0;
+    background-color: black;
+  }  
+  .sponsors_footer_img{
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+  } 
+  
+  .blue-bar {
+    background-color: #177086;
+    height: 5%;
+    width: 100%;
+    margin-top: 0%;
+    padding: 0%;
+  }
+  
+  .future{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:bold; 
+    font-size: 100%; 
+    text-align: center;
+    color: white;
+    margin-top: 0%; 
+  }
+  .redes{
+   margin-left: 7.5%; 
+   padding-top: 10%;   
+  }
+  .redes img{
+    width: 4%;
+  }
+  .copy{
+  
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight:lighter; 
+    font-size: 100%; 
+    text-align: center;
+    color: white;
+    padding: 1%;
+    margin: 1%;
+  }
+  
+  .container_galeria {
+    max-width: 100%;
+    margin: 0% auto;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  }
+  
+  .text-center {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .lightbox-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .lightbox-gallery div > img {
+    
+    height: 25% ;
+    display: block;
+  }
+  
+  .lightbox-gallery div {
+    margin: 5%px;
+    flex-basis: 20%px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .lightbox-gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .lightbox > div {
+      margin-bottom: 10px;
+    }
+  }
+  
+  .lightbox {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+  
+  .lightbox img {
+    display: block;
+    margin: auto;
+  }
+  
+  .lightbox .caption {
+    margin: 15px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #202020;
+  }
+  
+  .img_team_index{
+    padding: 0px;
+    margin-bottom: 0px;
+    display: block;
+  }
+  .img_team_index2{
+  margin-top: 180%;
+  }
+  .video_ss{
+  margin-top: 60%;
+  
+  }
+  video.ss{
+  width: 75%;
+  margin-left: 15%;
+  
+  }
+  .contenedor {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 5%;
+  align-content: center;
+  
+  }
+  .area {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .area1 {
+  margin-bottom: 10%;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 90%;
+  float: left;
+  
+  }
+  .area img{
+  border-radius: 3%;
+  }
+  
+  .area1 img{
+  border-radius: 3%;
+  margin: 5px;
+  }
+  .persona {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+
+  }
+  .persona img {
+  max-width: 100px;
+
+  }
+  
+  .persona p {
+  margin-top: 10px;
+  font-size: small;
+  }
+  
+  p.nombres{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:300; 
+  font-size: 100%; 
+  text-align: center;
+  color: white;
+  line-height: normal;
+  margin-bottom: 3px;
+  }
+  
+  p.nombresd{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:300; 
+  font-size: 100%; 
+  text-align: center;
+  color: white;
+  margin-bottom: 0%;
+  }
+  
+  p.rol{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:300; 
+  font-size: 70%; 
+  text-align: center;
+  color: white;
+  margin-top: 0%;
+  line-height: normal;
+  }
+  
+  h2.team{
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight:lighter; 
+  font-size: 200%; 
+  color: white; 
+  margin: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  padding: 0; 
+  }
+  
+  .index_card{
+    width: 80%;
+    height: 200px;
+    border-radius: 1.5rem;
+    background-color: rgba(27, 26, 26, 0.7);
+    margin: 2%;
+    margin-bottom: 4%;
+    padding-right: 2%;
+    padding-left: 1%;
+    padding-top: 4%;
+  }
+  
+  .call2action{
+    width: 38%;
+    height: 210px;
+    float: left;
+    align-self: center;
+    margin: 2%;
+    margin-top: 15%;
+    padding-right: 2%;
+    padding-left: 1%;
+    
+    font-size: 12px;
+    position: relative;
+  
+  }
+  
+  .call2action.top{
+    width: 38%;
+    height: 260px;
+    float: left;
+    align-self: center;
+    margin: 2%;
+    margin-left: 10%;
+    margin-top: 15%;
+    padding-right: 2%;
+    padding-left: 1%;
+ 
+    position: relative;
+  }
+  
+  .top10{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: right;
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+  
+  .top10.urc{
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 0%;
+  }
+  
+  p.mv{
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    z-index: 3;
+  }
+  
+  .img_index{
+    position: relative;
+    height: 320px;
+  }
+
+  .numero{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .index_group{
+    height: 110vh;
+    z-index: -3;
+  }
+  
+  .URC{
+    width: 100%;
+    height: 95vh;
+    z-index: 7;
+    float: left;
+    padding-top: 10%;
+  }
+  
+  .URC_text{
+    font-family: 'Coco Gothic', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    float: left;
+    width: 85%;
+    margin-left: 7%;
+  }
+  .URC_logo{
+   margin-left: 18%;
+   margin-top: 4%;
+   width: 200px;
+   float: left;
+  }
+
+  .navbar_frame{
+    margin: 0px;
+    padding: 0px;
+  }
+
+.azul.futuras{
+  font-size: 14px;
+}
+
+.azul.robotics{
+  color:#249EBC;
+  font-family: 'Coco Gothic', sans-serif;
+  font-weight: lighter; 
+  font-size: 100%; 
+  text-align: center;
+}
+
+.azul.urc{
+  color:#249EBC;
+  font-size: 27px;
+  margin-left: 15px;
+}
+}
+
+
+.azul{
+    color:#249EBC;
+}
+.navbar{
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #249EBC;
+}
+
+.video-container{
+    position: relative;
+    z-index: 1;
+   
+}
+.video-container2{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+   
+}
+
+@media (min-width: 575px) and (max-width: 890px){
+.URC{
+  width: 100%;
+  height: 50vh;
+  z-index: 7;
+  float: left;
+}
+}
